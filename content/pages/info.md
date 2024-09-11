@@ -301,7 +301,7 @@ sections:
               - pb-0
               - pr-0
     columns: 2
-    spacingX: 60
+    spacingX: 0
     spacingY: 60
     styles:
       self:
