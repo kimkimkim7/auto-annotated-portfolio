@@ -1,39 +1,49 @@
 import * as React from 'react';
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
+import Head from 'next/head'; // Head 컴포넌트 추가
 import classNames from 'classnames';
 
 import { Link, Action, Social } from '../../atoms';
 import ImageBlock from '../../molecules/ImageBlock';
 import CloseIcon from '../../svgs/close';
 import MenuIcon from '../../svgs/menu';
-
+ 
 export default function Header(props) {
     const { headerVariant, isSticky, title, isTitleVisible, logo, primaryLinks = [], socialLinks = [], styles = {} } = props;
     const headerWidth = styles.self?.width ?? 'narrow';
+
     return (
-        <header className={classNames('sb-component', 'sb-component-header', isSticky ? 'sticky top-0 z-10' : 'relative', 'border-b', 'border-current')}>
-            <div
-                className={classNames('mx-auto', mapMaxWidthStyles(headerWidth), {
-                    'xl:border-l xl:border-r border-current': headerWidth === 'narrow',
-                    '2xl:border-l 2xl:border-r border-current': headerWidth === 'wide'
-                })}
-            >
-                <Link href="#main" className="sr-only">
-                    Skip to main content
-                </Link>
-                <HeaderVariants
-                    variant={headerVariant}
-                    title={title}
-                    isTitleVisible={isTitleVisible}
-                    logo={logo}
-                    primaryLinks={primaryLinks}
-                    socialLinks={socialLinks}
-                />
-            </div>
-        </header>
+        <>
+            {/* Head 컴포넌트 추가, title을 설정 */}
+            <Head>
+                <title>{kimkimkim}</title>
+            </Head>
+
+            <header className={classNames('sb-component', 'sb-component-header', isSticky ? 'sticky top-0 z-10' : 'relative', 'border-b', 'border-current')}>
+                <div
+                    className={classNames('mx-auto', mapMaxWidthStyles(headerWidth), {
+                        'xl:border-l xl:border-r border-current': headerWidth === 'narrow',
+                        '2xl:border-l 2xl:border-r border-current': headerWidth === 'wide'
+                    })}
+                >
+                    <Link href="#main" className="sr-only">
+                        Skip to main content
+                    </Link>
+                    <HeaderVariants
+                        variant={headerVariant}
+                        title={title}
+                        isTitleVisible={isTitleVisible}
+                        logo={logo}
+                        primaryLinks={primaryLinks}
+                        socialLinks={socialLinks}
+                    />
+                </div>
+            </header>
+        </>
     );
 }
+
 
 function HeaderVariants(props) {
     const { variant = 'variant-a', ...rest } = props;
@@ -176,12 +186,50 @@ function SiteLogoLink({ title, isTitleVisible, logo }) {
     return (
         <div className="border-r border-current flex items-center">
             <Link href="/" className="sb-header-logo flex items-center h-full p-4">
-                {logo && <ImageBlock {...logo} className={classNames('max-h-12', { 'mr-2': isTitleVisible })} />}
+                {/* 여기서 logo 속성이 이미지 파일을 가리킵니다 */}
+                {logo && <ImageBlock src={/images/jammies.gif} alt={logo.altText} className={classNames('max-h-12', { 'mr-2': isTitleVisible })} />} {/* logo.url로 경로 전달 */}
                 {title && isTitleVisible && <span className="text-base tracking-widest uppercase">{title}</span>}
             </Link>
         </div>
     );
 }
+
+
+
+export default function Header(props) {
+    const { headerVariant, isSticky, title, isTitleVisible, 
+            logo = { url: '/images/jammies.gif', altText: 'Jammies Logo' }, 
+            primaryLinks = [], 
+            socialLinks = [], 
+            styles = {} } = props;
+            
+    const headerWidth = styles.self?.width ?? 'narrow';
+    
+    return (
+        <header className={classNames('sb-component', 'sb-component-header', isSticky ? 'sticky top-0 z-10' : 'relative', 'border-b', 'border-current')}>
+            <div
+                className={classNames('mx-auto', mapMaxWidthStyles(headerWidth), {
+                    'xl:border-l xl:border-r border-current': headerWidth === 'narrow',
+                    '2xl:border-l 2xl:border-r border-current': headerWidth === 'wide'
+                })}
+            >
+                <Link href="#main" className="sr-only">
+                    Skip to main content
+                </Link>
+                <HeaderVariants
+                    variant={headerVariant}
+                    title={title}
+                    isTitleVisible={isTitleVisible}
+                    logo={logo}  {/* logo 객체 전달 */}
+                    primaryLinks={primaryLinks}
+                    socialLinks={socialLinks}
+                />
+            </div>
+        </header>
+    );
+}
+
+
 
 function ListOfLinks({ links, inMobileMenu }) {
     return links.map((link, index) => (
