@@ -91,7 +91,7 @@ sections:
         label: figma(Intermediate)
         url: www.figma.com
       - type: Label
-        label: React
+        label: google workspace(Expert)
         url: ''
       - type: Label
         label: Microsoft Office
