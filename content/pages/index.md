@@ -1,6 +1,6 @@
 ---
 type: PageLayout
-title: kim
+title: kimkimkim
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
