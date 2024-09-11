@@ -193,7 +193,7 @@ sections:
         textAlign: left
       subtitle:
         textAlign: left
-    subtitle: 'You can find me here:'
+    subtitle: '자세한 경력은 아래에서 확인하세요! :'
   - type: DividerSection
     styles:
       self:
