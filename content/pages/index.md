@@ -88,7 +88,7 @@ sections:
     subtitle: 다음과 같은 작업들을 할 수 있습니다!
     items:
       - type: Label
-        label: figma(Intermediate)
+        label: figma (Expert)
         url: www.figma.com
       - type: Label
         label: google workspace (Expert)
