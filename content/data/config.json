@@ -81,7 +81,7 @@
         "copyrightText": "Powered by [Netlify ](https://www.netlify.com/platform/)and kimhyojoung\n",
         "styles": {
             "self": {
-                "width": "narrow",
+                "width": "wide",
                 "padding": [
                     "pt-16",
                     "pb-16",
