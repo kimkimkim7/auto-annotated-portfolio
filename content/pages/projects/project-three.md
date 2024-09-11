@@ -8,14 +8,16 @@ description: >-
   제가 만들고 싶었던 드림 앱인 개인 또는 친구와 함께 쓰는 공유 다이어리 앱을 전체 기획을 하였습니다. 순간 떠오르는 생각, 사진 등을
   기록하면 하루에 기록한 순간을 시간순으로 보이며 하루 일기
   완성됩니다.                                           
-featuredImage:
-  type: ImageBlock
-  url: /images/pf_2.png
-  altText: Project thumbnail image
 media:
   type: ImageBlock
   url: /images/bg3.jpg
   altText: Project image
+featuredImage:
+  type: ImageBlock
+  url: /images/pf_2.png
+  altText: altText of the image
+  caption: Caption of the image
+  elementId: ''
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem, tincidunt ac leo efficitur, feugiat tempor odio. Curabitur at auctor sapien. Etiam at cursus enim. Suspendisse sed augue tortor. Nunc eu magna vitae lorem pellentesque fermentum. Sed in facilisis dui. Nulla molestie risus in mi dapibus, eget porta lorem semper. Donec sed facilisis nibh. Curabitur eget dui in libero euismod commodo nec sit amet est. Etiam id ipsum aliquam, vehicula erat sit amet, consequat tortor.
