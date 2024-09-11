@@ -45,7 +45,7 @@ sections:
       subtitle:
         textAlign: left
       text:
-        textAlign: left
+        textAlign: right
       actions:
         justifyContent: flex-start
     type: HeroSection
