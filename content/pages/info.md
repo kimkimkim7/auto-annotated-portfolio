@@ -52,8 +52,8 @@ sections:
     title: ''
   - type: HeroSection
     title: >-
-      I'm a developer, digital artist, consultant and a bunch of other
-      impressive titles and buzz words.
+      안녕하세요, UI/UX 기획자 김효정입니다. 저는 오랫동안 브랜드 기획을 해왔으며저와 가장 잘 맞는 APP/WEB 기획 분야에서
+      다양한 경험을 쌓고 있습니다.
     subtitle: >-
       안녕하세요, UI/UX 기획자 김효정입니다. 저는 오랫동안 브랜드 기획을 해왔으며, 새로운 분야에 도전하고자 제품 기획도 경험해
       보았습니다. 그중에서도 저와 가장 잘 맞는 APP/WEB 기획 분야에서 다양한 경험을 쌓고 있습니다. 여러 분야의 앱 초기 기획과
