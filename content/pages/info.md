@@ -132,6 +132,7 @@ sections:
         styles:
           self:
             textAlign: left
+        subtitle: 이력서
       - type: FeaturedItem
         actions:
           - type: Link
