@@ -11,7 +11,8 @@
             {
                 "type": "Link",
                 "label": "내 소개",
-                "url": "/info"
+                "url": "/info",
+                "altText": "내 소개"
             },
             {
                 "type": "Link",
