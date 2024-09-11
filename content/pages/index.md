@@ -92,7 +92,7 @@ sections:
         url: www.figma.com
       - type: Label
         label: google workspace(Expert)
-        url: ''
+        url: workspace.google.com
       - type: Label
         label: Microsoft Office
         url: ''
