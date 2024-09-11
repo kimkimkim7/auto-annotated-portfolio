@@ -14,10 +14,7 @@ sections:
     colors: colors-f
     backgroundSize: full
     title: 안녕하세요!  저는 UI/UX 기획자입니다.
-    subtitle: >-
-      지금까지 쌓아온 경험과 성과는 단순한 이력 이상의 의미를 지닙니다. 제가 쌓아온 능력을 바탕으로, 도전에 대한 두려움 없이 새로운
-      기술을 대담하게 받아들이며 스스로의 가능성을 확장해왔습니다. 이를 통해 더 큰 도약을 준비하고 있으며, 앞으로도 체계적이고 전략적인
-      기획 능력을 바탕으로 지속적인 성장을 이루고자 합니다.
+    subtitle: ''
     styles:
       self:
         height: auto
