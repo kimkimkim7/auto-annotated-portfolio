@@ -1,6 +1,6 @@
 ---
 type: ProjectLayout
-title: A very cool code project
+title: '베개 제작, 기획 및 판매 전략 프로젝트'
 colors: colors-a
 date: '2021-10-15'
 client: Awesome client
