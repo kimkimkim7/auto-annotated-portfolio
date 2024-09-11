@@ -5,9 +5,8 @@ colors: colors-a
 date: '2019-06-01'
 client: 와디즈 고객
 description: >-
-  It’s hard to imagine that I’ve that I wrote all this code by myself, probably
-  because I worked with an entire team :) but they definitely followed my lead
-  most of the time.
+  처음으로 제품 기획 및 제작을 했었던 프로젝트입니다. 메모리폼 베개의 원단, 컬러 등 제작 및 콘셉트, 판매 전략 및 와디즈 상세페이지 구성
+  작업 진행하였습니다.
 featuredImage:
   type: ImageBlock
   url: /images/pf_3.png
