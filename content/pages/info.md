@@ -86,7 +86,7 @@ sections:
         url: /images/Frame 5.png
         altText: Logo five
         caption: Logo five
-    spacing: 92
+    spacing: 80
     columns: 5
     aspectRatio: auto
     showCaption: false
