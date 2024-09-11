@@ -91,7 +91,7 @@ sections:
         label: figma(Intermediate)
         url: www.figma.com
       - type: Label
-        label: google workspace(Expert)
+        label: google workspace (Expert)
         url: workspace.google.com
       - type: Label
         label: JIRA (Intermediate)
