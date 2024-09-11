@@ -103,7 +103,7 @@ sections:
         label: Netlify
         url: ''
       - type: Label
-        label: notion (Intermediate)
+        label: notion (Expert)
         url: ''
       - type: Label
         label: C++
