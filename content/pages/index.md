@@ -130,7 +130,7 @@ sections:
     text: "저의 포트폴리오를\_*다운로드하고*\_싶다면 아래 버튼을 눌러 구글 드라이브에서\_*다운로드해 주세요*\_:)\n"
     actions:
       - type: Button
-        label: 다운로드 하러가기
+        label: 다운로드하러 가기
         altText: ''
         url: /
         showIcon: true
