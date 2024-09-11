@@ -28,5 +28,40 @@ projectFeed:
 styles:
   title:
     textAlign: left
-bottomSections: []
+bottomSections:
+  - type: CtaSection
+    title: 저의 포트폴리오를 다운로드하고 싶나요?
+    text: "저의 포트폴리오를\_*다운로드하고*\_싶다면 아래 버튼을 눌러 구글 드라이브에서\_*다운로드해 주세요*\_:)\n"
+    actions:
+      - type: Button
+        label: 다운로드하러 가기
+        altText: ''
+        url: >-
+          https://drive.google.com/file/d/1kPpXiFIo3NDJofdTCzbDjO7FZEtSfSC5/view?usp=sharing
+        showIcon: true
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        elementId: ''
+    colors: colors-f
+    backgroundSize: inset
+    elementId: ''
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-28
+          - pb-28
+          - pl-4
+          - pr-4
+        alignItems: center
+        justifyContent: center
+        flexDirection: col
+      title:
+        textAlign: left
+      text:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
 ---
