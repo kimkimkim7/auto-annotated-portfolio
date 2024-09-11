@@ -51,15 +51,15 @@
             },
             {
                 "type": "Link",
-                "label": "Contact",
-                "url": "mailto:\bworkim7777@gmail.com",
-                "altText": ""
-            },
-            {
-                "type": "Link",
                 "label": "GitHub",
                 "url": "https://github.com/netlify-templates",
                 "altText": "Netlify templates"
+            },
+            {
+                "type": "Link",
+                "label": "Contact",
+                "url": "mailto:\bworkim7777@gmail.com",
+                "altText": ""
             }
         ],
         "contacts": {
