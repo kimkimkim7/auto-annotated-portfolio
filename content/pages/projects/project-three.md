@@ -3,7 +3,7 @@ type: ProjectLayout
 title: 위치 기반 공유 다이어리 앱 제작 프로젝트
 colors: colors-a
 date: '2022-12-01'
-client: "\beveryone"
+client: "\b\bsoftlunch"
 description: >-
   제가 만들고 싶었던 드림 앱인 개인 또는 친구와 함께 쓰는 공유 다이어리 앱을 전체 기획을 하였습니다. 순간 떠오르는 생각, 사진 등을
   기록하면 하루에 기록한 순간을 시간순으로 보이며 하루 일기
