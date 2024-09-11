@@ -5,9 +5,8 @@ colors: colors-a
 date: '2022-01-22'
 client: Awesome client
 description: >-
-  It’s hard to imagine that I’ve that I wrote all this code by myself, probably
-  because I worked with an entire team :) but they definitely followed my lead
-  most of the time.
+  개인 또는 친구와 함께 쓰는 공유 다이어리 앱. 순간 떠오르는 생각, 사진 등을 기록하면 하루에 기록한 순간을 시간순으로 보여지며 하루 일기
+  완성. 장소도 추가로 저장이 되어 어떤 장소에서 어떤 생각을 했는지 기록.
 featuredImage:
   type: ImageBlock
   url: /images/pf_2.png
