@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: '베개 제작, 기획 및 판매 전략 프로젝트'
 colors: colors-a
-date: '2019-05-14'
+date: '2019-06-14'
 client: daymedis
 description: >-
   처음으로 제품 기획, 제작 및 판매 전략 기획을 했었던 프로젝트입니다. 메모리폼 베개의 원단, 컬러 등 제작 및 콘셉트, 판매 전략부터
