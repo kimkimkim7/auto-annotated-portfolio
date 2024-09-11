@@ -10,36 +10,37 @@ backgroundImage:
   backgroundRepeat: no-repeat
   opacity: 75
 sections:
-  - elementId: ''
-    colors: colors-f
-    backgroundSize: full
-    text: >+
-      ### 안녕하세요, 김효정입니다. 저는 **UI/UX 기획자**로서 피그마, 포토샵, 구글 프레젠테이션, 노션, 지라 등
-      **스타트업에서 널리 사용되는 툴들을 능숙**하게 다루고 있습니다. 오랫동안 **브랜드 기획**을 해왔으며, 새로운 분야에 도전하고자
-      **제품 기획도 경험**해 보았습니다. 그중에서도 저와 가장 잘 맞는 **APP/WEB 기획 분야에서 다양한 경험**을 쌓고
-      있습니다. 여러 분야의 앱 초기 기획과 릴리즈를 성공적으로 진행했으며, 웹페이지 기획에도 참여했습니다. 또한 PM으로서 프로젝트의
-      전체 기획과 일정 관리를 주도한 경험이 있는데 **계획적인 성격 덕분에 PM 업무가 저와 잘 맞았습니다.** 평소에는 새로운 정보를
-      탐색하거나 다양한 상상을 즐기며, 생산적인 활동을 하지 않을 때는 주로 절전모드 휴식을 취합니다.
-
+  - type: HeroSection
+    title: '안녕하세요, UI/UX 기획자 김효정입니다.  APP/WEB 기획 분야에서 다양한 경험을 쌓고 있습니다.'
+    subtitle: >-
+      저는 오랫동안 브랜드 기획을 해왔으며, 새로운 분야에 도전하고자 제품 기획도 경험해 보았습니다. 그중에서도 저와 가장 잘 맞는
+      APP/WEB 기획 분야에서 다양한 경험을 쌓고 있습니다. 여러 분야의 앱 초기 기획과 릴리즈를 성공적으로 진행했으며, 웹페이지
+      기획에도 참여했습니다. 또한 PM으로서 프로젝트의 전체 기획과 일정 관리를 주도한 경험이 있는데 계획적인 성격 덕분에 PM 업무가
+      저와 잘 맞았습니다. 저는 피그마, 포토샵, 구글 프레젠테이션, 노션, 지라 등 스타트업에서 널리 사용되는 툴들을 능숙하게 다루고
+      있습니다. 평소에는 새로운 정보를 탐색하거나 다양한 상상을 즐기며, 업무 스킬을 향상시키기 위해 여러가지 노력을 하고 있습니다.
+      생산적인 활동을 하지 않을때는 주로 절전모드로 휴식을 취하거나 하루 일을 리마인드합니다.
+    actions: []
     media:
       type: ImageBlock
       url: /images/C21D3B8A-1D44-43BA-BC10-DC8F72A275B0.jpg
       altText: Hero image
+      caption: Caption of the image
+      elementId: ''
+    colors: colors-f
+    backgroundSize: full
+    elementId: ''
     styles:
       self:
         height: auto
         width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
         padding:
-          - pt-16
-          - pb-12
+          - pt-36
+          - pb-24
           - pl-4
           - pr-4
+        alignItems: center
         justifyContent: center
+        flexDirection: row-reverse
       title:
         textAlign: left
       subtitle:
@@ -48,8 +49,6 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
-    type: HeroSection
-    title: ''
   - type: DividerSection
     styles:
       self:
@@ -143,8 +142,8 @@ sections:
         styles:
           self:
             textAlign: left
-    columns: 3
-    spacingX: 120
+    columns: 4
+    spacingX: 100
     spacingY: 0
     styles:
       self:
@@ -178,132 +177,39 @@ sections:
         borderWidth: 1
         borderStyle: solid
   - type: LabelsSection
-    colors: colors-f
-    subtitle: 'Skills:'
+    title: ''
+    subtitle: '다음과 같은 작업들을 할 수 있습니다! : '
     items:
       - type: Label
-        label: 'WEB 1, 2, 3'
+        label: figma (Expert)
+        url: www.figma.com
       - type: Label
-        label: React
+        label: adobe photoshop (Intermediate)
+        url: ''
       - type: Label
-        label: Microsoft Office
+        label: JIRA (Intermediate)
+        url: www.atlassian.com
       - type: Label
-        label: Next.js
+        label: google workspace (Expert)
+        url: workspace.google.com
       - type: Label
-        label: Netlify
+        label: notion (Expert)
+        url: www.notion.so
       - type: Label
-        label: Pancakes
-      - type: Label
-        label: C++
-      - type: Label
-        label: Swift
-  - type: DividerSection
-    styles:
-      self:
-        width: wide
-        padding:
-          - pt-12
-          - pb-12
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderWidth: 1
-        borderStyle: solid
-  - type: TextSection
-    variant: variant-a
-    subtitle: 'Contact:'
+        label: Netlify (Intermediate)
+        url: ''
     colors: colors-f
-    text: |
-      [thisismyemail.@myemail.me](mailto:thisismyemail.@myemail.me)
-  - type: DividerSection
-    styles:
-      self:
-        width: wide
-        padding:
-          - pt-8
-          - pb-8
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderWidth: 1
-        borderStyle: solid
-  - type: FeaturedItemsSection
-    colors: colors-f
-    items:
-      - type: FeaturedItem
-        subtitle: 'Experience:'
-        text: |-
-          **Current**
-
-          * freelance @freelance.me
-
-          **2018-2021**
-
-          * fullstack at this startup
-
-          **2015**
-
-          * senior front-end at this place
-
-          **2013**
-
-          * intern developer at a big company
-
-          **2011**
-
-          * flipping burgers
-        styles:
-          self:
-            textAlign: left
-            padding:
-              - pt-0
-              - pl-0
-              - pb-0
-              - pr-0
-      - type: FeaturedItem
-        subtitle: 'Education:'
-        text: |-
-          **2015-2018**
-
-          * ba computer sciense at a semi fancy school
-
-          **2014**
-
-          * react certificate somewhere
-
-          **2011**
-
-          * my highschool
-        styles:
-          self:
-            textAlign: left
-            padding:
-              - pt-0
-              - pl-0
-              - pb-0
-              - pr-0
-    columns: 2
-    spacingX: 60
-    spacingY: 60
+    elementId: ''
     styles:
       self:
         height: auto
         width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
         padding:
           - pt-8
           - pb-8
           - pl-4
           - pr-4
         justifyContent: center
-        borderRadius: none
-        borderWidth: 0
-        borderStyle: none
-        borderColor: border-dark
       title:
         textAlign: left
       subtitle:
@@ -320,70 +226,57 @@ sections:
         justifyContent: center
         borderWidth: 1
         borderStyle: solid
-  - type: ContactSection
-    backgroundSize: full
-    title: "Let’s talk... \U0001F4AC"
+  - type: TextSection
+    variant: variant-a
+    subtitle: '연락처는 다음과 같아요! :'
     colors: colors-f
-    form:
-      type: FormBlock
-      elementId: sign-up-form
-      fields:
-        - name: firstName
-          label: First Name
-          hideLabel: true
-          placeholder: First Name
-          isRequired: true
-          width: 1/2
-          type: TextFormControl
-        - name: lastName
-          label: Last Name
-          hideLabel: true
-          placeholder: Last Name
-          isRequired: false
-          width: 1/2
-          type: TextFormControl
-        - name: email
-          label: Email
-          hideLabel: true
-          placeholder: Email
-          isRequired: true
-          width: full
-          type: EmailFormControl
-        - name: message
-          label: Message
-          hideLabel: true
-          placeholder: Tell me about your project
-          isRequired: true
-          width: full
-          type: TextareaFormControl
-        - name: updatesConsent
-          label: Sign me up to recieve my words
-          isRequired: false
-          width: full
-          type: CheckboxFormControl
-      submitLabel: "Submit \U0001F680"
-      styles:
-        submitLabel:
-          textAlign: center
+    text: |
+      workim7777\@gmail.com
+  - type: DividerSection
+    styles:
+      self:
+        width: wide
+        padding:
+          - pt-8
+          - pb-8
+          - pl-4
+          - pr-4
+        justifyContent: center
+        borderWidth: 1
+        borderStyle: solid
+  - type: CtaSection
+    title: 저의 포트폴리오를 다운로드하고 싶나요?
+    text: "저의 포트폴리오를\_*다운로드하고*\_싶다면 아래 버튼을 눌러 구글 드라이브에서\_*다운로드해 주세요*\_:)\n"
+    actions:
+      - type: Button
+        label: 다운로드하러 가기
+        altText: ''
+        url: >-
+          https://drive.google.com/file/d/1kPpXiFIo3NDJofdTCzbDjO7FZEtSfSC5/view?usp=sharing
+        showIcon: true
+        icon: arrowRight
+        iconPosition: right
+        style: primary
+        elementId: ''
+    colors: colors-f
+    backgroundSize: inset
+    elementId: ''
     styles:
       self:
         height: auto
-        width: narrow
-        margin:
-          - mt-0
-          - mb-0
-          - ml-4
-          - mr-4
+        width: wide
         padding:
-          - pt-12
-          - pb-12
-          - pr-4
+          - pt-28
+          - pb-28
           - pl-4
+          - pr-4
         alignItems: center
         justifyContent: center
-        flexDirection: row
+        flexDirection: col
       title:
         textAlign: left
       text:
         textAlign: left
+      actions:
+        justifyContent: flex-start
 ---
