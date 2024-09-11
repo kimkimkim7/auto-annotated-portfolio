@@ -178,6 +178,44 @@ sections:
         borderWidth: 1
         borderStyle: solid
   - type: LabelsSection
+    title: 나의 스킬
+    subtitle: 다음과 같은 작업들을 할 수 있습니다!
+    items:
+      - type: Label
+        label: figma (Expert)
+        url: www.figma.com
+      - type: Label
+        label: adobe photoshop (Intermediate)
+        url: ''
+      - type: Label
+        label: JIRA (Intermediate)
+        url: www.atlassian.com
+      - type: Label
+        label: google workspace (Expert)
+        url: workspace.google.com
+      - type: Label
+        label: notion (Expert)
+        url: www.notion.so
+      - type: Label
+        label: Netlify (Intermediate)
+        url: ''
+    colors: colors-f
+    elementId: ''
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-36
+          - pb-36
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+  - type: LabelsSection
     colors: colors-f
     subtitle: 'Skills:'
     items:
