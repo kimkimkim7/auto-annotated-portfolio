@@ -106,9 +106,6 @@ sections:
         label: notion (Expert)
         url: www.notion.so
       - type: Label
-        label: C++
-        url: ''
-      - type: Label
         label: Swift
         url: ''
     colors: colors-f
