@@ -48,7 +48,7 @@ sections:
       actions:
         justifyContent: flex-start
     type: HeroSection
-    title: '안녕하세요, 저는 김효정입니다.'
+    title: ''
   - type: DividerSection
     styles:
       self:
