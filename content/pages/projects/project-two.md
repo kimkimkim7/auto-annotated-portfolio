@@ -15,7 +15,52 @@ media:
   type: ImageBlock
   url: /images/pf_1.png
   altText: Project image
-bottomSections: []
+bottomSections:
+  - type: MediaGallerySection
+    title: Gallery
+    subtitle: This is the subtitle
+    images:
+      - type: ImageBlock
+        url: /images/gallery-1.jpg
+        altText: Image one
+        caption: Image one caption
+        elementId: ''
+      - type: ImageBlock
+        url: /images/gallery-2.jpg
+        altText: Image two
+        caption: Image two caption
+        elementId: ''
+      - type: ImageBlock
+        url: /images/gallery-3.jpg
+        altText: Image three
+        caption: Image three caption
+        elementId: ''
+      - type: ImageBlock
+        url: /images/gallery-4.jpg
+        altText: Image four
+        caption: Image four caption
+        elementId: ''
+    colors: colors-f
+    spacing: 16
+    columns: 4
+    aspectRatio: '4:3'
+    showCaption: false
+    enableHover: true
+    elementId: ''
+    styles:
+      self:
+        height: auto
+        width: full
+        padding:
+          - pt-12
+          - pb-12
+          - pl-4
+          - pr-4
+        justifyContent: center
+      title:
+        textAlign: center
+      subtitle:
+        textAlign: center
 ---
 리스크제로 3.0 앱은 총 1년에 걸쳐 작업되었습니다. 2023년 6월부터 6개월간 전체 작업을 제작하여 대표 및 이사진께 리뷰를 마쳤고, 이후 6개월은 각 카테고리별 디벨롭과 웹과의 싱크를 맞추는 작업을 진행하였습니다.
 
