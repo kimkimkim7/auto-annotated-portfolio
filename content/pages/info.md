@@ -13,11 +13,11 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    text: >-
-      ## Hey I’m a developer. I’ve been born and raised in the world, and that’s
-      also where I’m based. I’m currently a free agent, ex-this, ex-that,
-      ex-super big name. When I’m not coding, writing or creating, I eat
-      cereals. I have a dog, check her out [@mygod](https://www.stackbit.com/).
+    text: >+
+      ### 안녕하세요, 저는 김효정입니다. UI/UX 기획자로 일을 하고 있으며 피그마, 구글 프레젠테이션, 노션, 지라 사용이
+      능숙합니다. 다양한 분야의 앱의 초기 기획 및 릴리즈를 진행하였고, PM으로써 프로젝트의 전반적인 기획 및 일정 관리를 주도한 경험이
+      있습니다. 평소에는 새로운 정보를 탐색하거나 다양한 상상을 하는 것을 좋아하며 생산적인 활동을 하지 않을 때는 누워있습니다.
+
     media:
       type: ImageBlock
       url: /images/C21D3B8A-1D44-43BA-BC10-DC8F72A275B0.jpg
