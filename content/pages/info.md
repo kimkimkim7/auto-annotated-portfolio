@@ -51,7 +51,7 @@ sections:
     type: HeroSection
     title: ''
   - type: HeroSection
-    title: '안녕하세요, UI/UX 기획자 김효정입니다.  APP/WEB 기획 분야에서 다양한 경험을 쌓고 있습니다.'
+    title: ''
     subtitle: >-
       저는 오랫동안 브랜드 기획을 해왔으며, 새로운 분야에 도전하고자 제품 기획도 경험해 보았습니다. 그중에서도 저와 가장 잘 맞는
       APP/WEB 기획 분야에서 다양한 경험을 쌓고 있습니다. 여러 분야의 앱 초기 기획과 릴리즈를 성공적으로 진행했으며, 웹페이지
