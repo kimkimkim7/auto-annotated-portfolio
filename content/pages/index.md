@@ -127,9 +127,8 @@ sections:
         justifyContent: flex-end
   - type: CtaSection
     title: 저의 이력서를 다운 받고 싶나요?
-    text: >-
-      The Stackbit theme is flexible and scalable to every need. It can manage
-      any layout and any screen.
+    text: |
+      저의 포트폴리오를 다운받고 싶다면 아래 버튼을 눌러 구글 드라이브에서 다운받아주세요 :)
     actions:
       - type: Button
         label: Try it now
