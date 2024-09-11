@@ -71,7 +71,7 @@
         "contacts": {
             "type": "ContactBlock",
             "title": "Contact details",
-            "phoneNumber": "",
+            "phoneNumber": "이력서 참고",
             "phoneAltText": "My phone number",
             "email": "workim7777@gmail.com",
             "emailAltText": "My email",
