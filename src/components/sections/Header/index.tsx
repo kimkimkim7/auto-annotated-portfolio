@@ -169,7 +169,7 @@ function MobileMenu(props) {
     );
 }
 
-function SiteLogoLink({ title, isTitleVisible, logo }) {
+function SiteLogoLink({ kimkimkim, isTitleVisible, logo }) {
     if (!(logo || (title && isTitleVisible))) {
         return null;
     }
