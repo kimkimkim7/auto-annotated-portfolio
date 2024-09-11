@@ -55,9 +55,12 @@ sections:
       I'm a developer, digital artist, consultant and a bunch of other
       impressive titles and buzz words.
     subtitle: >-
-      This is my info—I'm sharing it all this with ya'll to impress you with all
-      the hard work I've done in the past few years. Once you're impressed, you
-      can continue to scroll down to see more details and credentials about me.
+      안녕하세요, UI/UX 기획자 김효정입니다. 저는 오랫동안 브랜드 기획을 해왔으며, 새로운 분야에 도전하고자 제품 기획도 경험해
+      보았습니다. 그중에서도 저와 가장 잘 맞는 APP/WEB 기획 분야에서 다양한 경험을 쌓고 있습니다. 여러 분야의 앱 초기 기획과
+      릴리즈를 성공적으로 진행했으며, 웹페이지 기획에도 참여했습니다. 또한 PM으로서 프로젝트의 전체 기획과 일정 관리를 주도한 경험이
+      있는데 계획적인 성격 덕분에 PM 업무가 저와 잘 맞았습니다. 저는 피그마, 포토샵, 구글 프레젠테이션, 노션, 지라 등 스타트업에서
+      널리 사용되는 툴들을 능숙하게 다루고 있습니다. 평소에는 새로운 정보를 탐색하거나 다양한 상상을 즐기며, 생산적인 활동을 하지 않을
+      때는 주로 절전모드 휴식을 취합니다.
     actions:
       - type: Button
         label: Hire me
