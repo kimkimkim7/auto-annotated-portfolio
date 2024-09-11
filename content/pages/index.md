@@ -104,7 +104,7 @@ sections:
         url: ''
       - type: Label
         label: notion (Expert)
-        url: ''
+        url: www.notion.so
       - type: Label
         label: C++
         url: ''
