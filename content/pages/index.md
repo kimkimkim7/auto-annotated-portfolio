@@ -13,7 +13,7 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    title: Hello!  여기는 UI/UX 기획자의 페이지입니다.
+    title: Hello!  여기는 UI/UX기획자의 페이지입니다.
     subtitle: ''
     styles:
       self:
