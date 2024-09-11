@@ -64,7 +64,7 @@ sections:
         borderStyle: solid
   - type: MediaGallerySection
     colors: colors-f
-    subtitle: '제가 일했던 회사에요 : '
+    subtitle: '제가 일했던 회사에요! : '
     images:
       - type: ImageBlock
         url: /images/Frame 1.png
