@@ -1,6 +1,6 @@
 ---
 type: PageLayout
-title: Home
+title: kimkimkim
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
@@ -55,7 +55,7 @@ sections:
     elementId: ''
     actions:
       - type: Link
-        label: 프로젝트 더보기 >
+        label: 프로젝트 자세히 보기 >
         url: /projects
     showDate: false
     showDescription: true
