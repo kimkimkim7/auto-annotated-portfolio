@@ -178,7 +178,7 @@ sections:
         borderWidth: 1
         borderStyle: solid
   - type: LabelsSection
-    title: 나의 스킬
+    title: ''
     subtitle: 다음과 같은 작업들을 할 수 있습니다!
     items:
       - type: Label
