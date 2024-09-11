@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
+import Head from 'next/head'; // Head 컴포넌트 추가
 import classNames from 'classnames';
 
 import { Link, Action, Social } from '../../atoms';
@@ -11,29 +12,38 @@ import MenuIcon from '../../svgs/menu';
 export default function Header(props) {
     const { headerVariant, isSticky, title, isTitleVisible, logo, primaryLinks = [], socialLinks = [], styles = {} } = props;
     const headerWidth = styles.self?.width ?? 'narrow';
+
     return (
-        <header className={classNames('sb-component', 'sb-component-header', isSticky ? 'sticky top-0 z-10' : 'relative', 'border-b', 'border-current')}>
-            <div
-                className={classNames('mx-auto', mapMaxWidthStyles(headerWidth), {
-                    'xl:border-l xl:border-r border-current': headerWidth === 'narrow',
-                    '2xl:border-l 2xl:border-r border-current': headerWidth === 'wide'
-                })}
-            >
-                <Link href="#main" className="sr-only">
-                    Skip to main content
-                </Link>
-                <HeaderVariants
-                    variant={headerVariant}
-                    title={title}
-                    isTitleVisible={isTitleVisible}
-                    logo={logo}
-                    primaryLinks={primaryLinks}
-                    socialLinks={socialLinks}
-                />
-            </div>
-        </header>
+        <>
+            {/* Head 컴포넌트 추가, title을 설정 */}
+            <Head>
+                <title>{kimkimkim}</title>
+            </Head>
+
+            <header className={classNames('sb-component', 'sb-component-header', isSticky ? 'sticky top-0 z-10' : 'relative', 'border-b', 'border-current')}>
+                <div
+                    className={classNames('mx-auto', mapMaxWidthStyles(headerWidth), {
+                        'xl:border-l xl:border-r border-current': headerWidth === 'narrow',
+                        '2xl:border-l 2xl:border-r border-current': headerWidth === 'wide'
+                    })}
+                >
+                    <Link href="#main" className="sr-only">
+                        Skip to main content
+                    </Link>
+                    <HeaderVariants
+                        variant={headerVariant}
+                        title={title}
+                        isTitleVisible={isTitleVisible}
+                        logo={logo}
+                        primaryLinks={primaryLinks}
+                        socialLinks={socialLinks}
+                    />
+                </div>
+            </header>
+        </>
     );
 }
+
 
 function HeaderVariants(props) {
     const { variant = 'variant-a', ...rest } = props;
