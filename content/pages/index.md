@@ -100,11 +100,11 @@ sections:
         label: adobe photoshop (Intermediate)
         url: ''
       - type: Label
-        label: Netlify (Intermediate)
-        url: ''
-      - type: Label
         label: notion (Expert)
         url: www.notion.so
+      - type: Label
+        label: Netlify (Intermediate)
+        url: ''
     colors: colors-f
     elementId: ''
     styles:
