@@ -3,7 +3,7 @@ type: ProjectLayout
 title: '베개 제작, 기획 및 판매 전략 프로젝트'
 colors: colors-a
 date: '2019-06-01'
-client: Awesome client
+client: 와디즈 고객
 description: >-
   It’s hard to imagine that I’ve that I wrote all this code by myself, probably
   because I worked with an entire team :) but they definitely followed my lead
