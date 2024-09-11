@@ -97,7 +97,7 @@ sections:
         label: JIRA (Intermediate)
         url: www.atlassian.com
       - type: Label
-        label: Next.js
+        label: adobe photoshop(Intermediate)
         url: ''
       - type: Label
         label: Netlify
