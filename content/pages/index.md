@@ -131,7 +131,7 @@ sections:
       저의 포트폴리오를 다운받고 싶다면 아래 버튼을 눌러 구글 드라이브에서 다운받아주세요 :)
     actions:
       - type: Button
-        label: 수취하기
+        label: 다운로드 하러가기
         altText: ''
         url: /
         showIcon: true
