@@ -126,7 +126,7 @@ sections:
       actions:
         justifyContent: flex-end
   - type: CtaSection
-    title: Let's do this
+    title: 저의 이력서를 다운 받고 싶나요?
     text: >-
       The Stackbit theme is flexible and scalable to every need. It can manage
       any layout and any screen.
