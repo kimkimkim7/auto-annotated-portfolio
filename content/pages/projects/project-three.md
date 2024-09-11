@@ -1,6 +1,6 @@
 ---
 type: ProjectLayout
-title: 공유 다이어리 앱
+title: 공유 다이어리 앱 제작 프로젝트
 colors: colors-a
 date: '2022-12-01'
 client: "\beveryone"
