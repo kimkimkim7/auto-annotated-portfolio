@@ -82,7 +82,7 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-end
-    subtitle: Projects
+    subtitle: 저의 프로젝트들은 다음과 같아요!
   - type: LabelsSection
     title: 나의 스킬
     subtitle: 다음과 같은 작업들을 할 수 있습니다!
