@@ -94,7 +94,7 @@ sections:
         label: google workspace(Expert)
         url: workspace.google.com
       - type: Label
-        label: Microsoft Office
+        label: JIRA (Intermediate)
         url: ''
       - type: Label
         label: Next.js
