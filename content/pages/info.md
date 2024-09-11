@@ -138,7 +138,8 @@ sections:
         actions:
           - type: Link
             label: 포트폴리오
-            url: 'https://twitter.com/'
+            url: >-
+              https://drive.google.com/file/d/1kPpXiFIo3NDJofdTCzbDjO7FZEtSfSC5/view?usp=sharing
         styles:
           self:
             textAlign: left
