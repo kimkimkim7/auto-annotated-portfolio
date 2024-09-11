@@ -100,7 +100,7 @@ sections:
         label: adobe photoshop (Intermediate)
         url: ''
       - type: Label
-        label: Netlify
+        label: Netlify (Intermediate)
         url: ''
       - type: Label
         label: notion (Expert)
