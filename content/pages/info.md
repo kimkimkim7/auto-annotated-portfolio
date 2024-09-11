@@ -179,7 +179,7 @@ sections:
         borderStyle: solid
   - type: LabelsSection
     title: ''
-    subtitle: 다음과 같은 작업들을 할 수 있습니다!
+    subtitle: '다음과 같은 작업들을 할 수 있습니다! : '
     items:
       - type: Label
         label: figma (Expert)
