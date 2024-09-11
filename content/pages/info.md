@@ -232,7 +232,7 @@ sections:
     subtitle: '연락처는 다음과 같아요! :'
     colors: colors-f
     text: |
-      [thisismyemail.@myemail.me](mailto:thisismyemail.@myemail.me)
+      workim7777\@gmail.com
   - type: DividerSection
     styles:
       self:
