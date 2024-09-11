@@ -5,17 +5,18 @@
         "type": "Header",
         "headerVariant": "variant-c",
         "isSticky": false,
-        "title": "Personal",
+        "title": "홈",
         "isTitleVisible": true,
         "primaryLinks": [
             {
                 "type": "Link",
-                "label": "Info",
-                "url": "/info"
+                "label": "내 소개",
+                "url": "/info",
+                "altText": "내 소개"
             },
             {
                 "type": "Link",
-                "label": "Projects",
+                "label": "프로젝트",
                 "url": "/projects"
             },
             {
@@ -25,13 +26,6 @@
             }
         ],
         "socialLinks": [
-            {
-                "type": "Social",
-                "altText": "Twitter",
-                "label": "Twitter",
-                "url": "https://twitter.com/netlify",
-                "icon": "twitter"
-            },
             {
                 "type": "Social",
                 "altText": "GitHub",
@@ -51,7 +45,7 @@
         "primaryLinks": [
             {
                 "type": "Link",
-                "label": "Info",
+                "label": "내 소개",
                 "url": "/info",
                 "altText": ""
             },
@@ -77,18 +71,23 @@
         "contacts": {
             "type": "ContactBlock",
             "title": "Contact details",
-            "phoneNumber": "850-123-5021",
+            "phoneNumber": "이력서 참고",
             "phoneAltText": "My phone number",
-            "email": "thisismyemail.@myemail.me",
+            "email": "workim7777@gmail.com",
             "emailAltText": "My email",
-            "address": "312 Lovely Street, Brooklyn, NY, 123456",
+            "address": "서울시 어딘가",
             "addressAltText": "My address"
         },
-        "copyrightText": "Powered by [Netlify](https://www.netlify.com/platform/)",
+        "copyrightText": "Powered by [Netlify ](https://www.netlify.com/platform/)and kimhyojoung\n",
         "styles": {
             "self": {
-                "width": "narrow",
-                "padding": ["pt-16", "pb-16", "pr-4", "pl-4"]
+                "width": "wide",
+                "padding": [
+                    "pt-16",
+                    "pb-16",
+                    "pr-4",
+                    "pl-4"
+                ]
             }
         }
     }
