@@ -75,7 +75,7 @@
             "phoneAltText": "My phone number",
             "email": "workim7777@gmail.com",
             "emailAltText": "My email",
-            "address": "",
+            "address": "서울시 어딘가",
             "addressAltText": "My address"
         },
         "copyrightText": "Powered by [Netlify ](https://www.netlify.com/platform/)and kimhyojoung\n",
