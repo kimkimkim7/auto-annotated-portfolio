@@ -58,16 +58,7 @@ sections:
       기획에도 참여했습니다. 또한 PM으로서 프로젝트의 전체 기획과 일정 관리를 주도한 경험이 있는데 계획적인 성격 덕분에 PM 업무가
       저와 잘 맞았습니다. 저는 피그마, 포토샵, 구글 프레젠테이션, 노션, 지라 등 스타트업에서 널리 사용되는 툴들을 능숙하게 다루고
       있습니다. 평소에는 새로운 정보를 탐색하거나 다양한 상상을 즐기며, 생산적인 활동을 하지 않을 때는 주로 절전모드 휴식을 취합니다.
-    actions:
-      - type: Button
-        label: Hire me
-        altText: ''
-        url: /
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: ''
+    actions: []
     media:
       type: ImageBlock
       url: /images/C21D3B8A-1D44-43BA-BC10-DC8F72A275B0.jpg
