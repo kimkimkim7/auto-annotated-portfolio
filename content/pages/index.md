@@ -85,7 +85,7 @@ sections:
     subtitle: Projects
   - type: LabelsSection
     title: 나의 스킬
-    subtitle: '다음과 같은 작업들을 할 수 있습니다!:'
+    subtitle: 다음과 같은 작업들을 할 수 있습니다!
     items:
       - type: Label
         label: 'WEB 1, 2, 3'
