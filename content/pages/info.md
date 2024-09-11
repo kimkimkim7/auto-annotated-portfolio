@@ -142,7 +142,7 @@ sections:
         styles:
           self:
             textAlign: left
-    columns: 2
+    columns: 4
     spacingX: 100
     spacingY: 0
     styles:
