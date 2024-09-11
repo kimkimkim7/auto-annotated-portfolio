@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: One more cool project
 colors: colors-a
-date: '2022-12-22'
+date: '2022-12-01'
 client: "\beveryone"
 description: >-
   제가 만들고 싶었던 꿈의 앱인 개인 또는 친구와 함께 쓰는 공유 다이어리 앱입니다. 순간 떠오르는 생각, 사진 등을 기록하면 하루에 기록한
