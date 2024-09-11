@@ -134,7 +134,7 @@ sections:
         label: 다운로드하러 가기
         altText: ''
         url: >-
-          https://drive.google.com/file/d/1kPpXiFIo3NDJofdTCzbDjO7FZEtSfSC5/view?usp=sharing
+          https://drive.google.com/file/d/1whPo7EIHB-1Hj59YHwwXGLZwIX7eYfh9/view?usp=sharing
         showIcon: true
         icon: arrowRight
         iconPosition: right
