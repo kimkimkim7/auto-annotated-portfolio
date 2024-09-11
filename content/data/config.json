@@ -78,7 +78,7 @@
             "address": "서울시 어딘가",
             "addressAltText": "My address"
         },
-        "copyrightText": "Powered by [Netlify ](https://www.netlify.com/platform/)and kimhyojoung\n",
+        "copyrightText": "Powered by Netlify and kimhyojoung\n",
         "styles": {
             "self": {
                 "width": "wide",
