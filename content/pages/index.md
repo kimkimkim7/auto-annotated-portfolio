@@ -96,7 +96,7 @@ sections:
         label: figma (Expert)
         url: www.figma.com
       - type: Label
-        label: adobe photoshop (Intermediate)
+        label: adobe photoshop (Expert)
         url: ''
       - type: Label
         label: JIRA (Intermediate)
