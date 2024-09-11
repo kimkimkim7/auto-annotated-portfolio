@@ -128,7 +128,8 @@ sections:
       - type: Button
         label: 다운로드하러 가기
         altText: ''
-        url: /
+        url: >-
+          https://drive.google.com/file/d/1kPpXiFIo3NDJofdTCzbDjO7FZEtSfSC5/view?usp=sharing
         showIcon: true
         icon: arrowRight
         iconPosition: right
