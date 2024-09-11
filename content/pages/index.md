@@ -126,7 +126,7 @@ sections:
       actions:
         justifyContent: flex-end
   - type: CtaSection
-    title: 저의 포트폴리오를 다운받고 싶나요?
+    title: 저의 포트폴리오를 다운로드하고 싶나요?
     text: "저의 포트폴리오를\_*다운로드하고*\_싶다면 아래 버튼을 눌러 구글 드라이브에서\_*다운로드해 주세요*\_:)\n"
     actions:
       - type: Button
