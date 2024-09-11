@@ -219,7 +219,7 @@ export default function Header(props) {
                     variant={headerVariant}
                     title={title}
                     isTitleVisible={isTitleVisible}
-                    logo={logo}  {/* 로고 객체 전달 */}
+                    logo={logo}  {/* logo 객체 전달 */}
                     primaryLinks={primaryLinks}
                     socialLinks={socialLinks}
                 />
@@ -227,6 +227,7 @@ export default function Header(props) {
         </header>
     );
 }
+
 
 
 function ListOfLinks({ links, inMobileMenu }) {
