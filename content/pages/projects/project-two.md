@@ -1,6 +1,6 @@
 ---
 type: ProjectLayout
-title: Another cool project
+title: 건설현장 안전관리 앱 제작 프로젝트
 colors: colors-a
 date: '2021-12-20'
 client: Awesome client
