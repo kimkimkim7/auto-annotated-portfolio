@@ -94,11 +94,11 @@ sections:
         label: adobe photoshop (Intermediate)
         url: ''
       - type: Label
-        label: google workspace (Expert)
-        url: workspace.google.com
-      - type: Label
         label: JIRA (Intermediate)
         url: www.atlassian.com
+      - type: Label
+        label: google workspace (Expert)
+        url: workspace.google.com
       - type: Label
         label: notion (Expert)
         url: www.notion.so
