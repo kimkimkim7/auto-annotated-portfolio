@@ -138,7 +138,7 @@ sections:
           - type: Link
             label: 포트폴리오
             url: >-
-              https://drive.google.com/file/d/1kPpXiFIo3NDJofdTCzbDjO7FZEtSfSC5/view?usp=sharing
+              https://drive.google.com/file/d/1whPo7EIHB-1Hj59YHwwXGLZwIX7eYfh9/view?usp=sharing
         styles:
           self:
             textAlign: left
