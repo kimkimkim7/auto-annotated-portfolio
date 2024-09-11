@@ -2,7 +2,7 @@
 type: ProjectLayout
 title: '베개 제작, 기획 및 판매 전략 프로젝트'
 colors: colors-a
-date: '2019-06-15'
+date: '2019-06-01'
 client: Awesome client
 description: >-
   It’s hard to imagine that I’ve that I wrote all this code by myself, probably
