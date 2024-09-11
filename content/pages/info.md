@@ -137,7 +137,7 @@ sections:
       - type: FeaturedItem
         actions:
           - type: Link
-            label: Twitter
+            label: 포트폴리오
             url: 'https://twitter.com/'
         styles:
           self:
