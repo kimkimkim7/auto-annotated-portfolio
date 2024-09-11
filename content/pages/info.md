@@ -20,7 +20,7 @@ sections:
       cereals. I have a dog, check her out [@mygod](https://www.stackbit.com/).
     media:
       type: ImageBlock
-      url: /images/about.jpg
+      url: /images/C21D3B8A-1D44-43BA-BC10-DC8F72A275B0.jpg
       altText: Hero image
     styles:
       self:
