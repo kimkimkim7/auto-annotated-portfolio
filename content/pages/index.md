@@ -55,7 +55,7 @@ sections:
     elementId: ''
     actions:
       - type: Link
-        label: "\b프로젝트 더보기 >"
+        label: 프로젝트 더보기 >
         url: /projects
     showDate: false
     showDescription: true
