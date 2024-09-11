@@ -95,7 +95,7 @@ sections:
         url: workspace.google.com
       - type: Label
         label: JIRA (Intermediate)
-        url: ''
+        url: www.atlassian.com
       - type: Label
         label: Next.js
         url: ''
