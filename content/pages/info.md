@@ -87,7 +87,7 @@ sections:
         altText: Logo five
         caption: Logo five
     spacing: 24
-    columns: 5
+    columns: 7
     aspectRatio: auto
     showCaption: false
     enableHover: false
