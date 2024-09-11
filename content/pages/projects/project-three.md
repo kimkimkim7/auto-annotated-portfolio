@@ -10,7 +10,7 @@ description: >-
   완성됩니다.                                           
 media:
   type: ImageBlock
-  url: /images/bg3.jpg
+  url: /images/share_1.png
   altText: Project image
 featuredImage:
   type: ImageBlock
