@@ -89,7 +89,7 @@ sections:
     items:
       - type: Label
         label: figma(Intermediate)
-        url: ''
+        url: www.figma.com
       - type: Label
         label: React
         url: ''
