@@ -184,6 +184,39 @@ function SiteLogoLink({ title, isTitleVisible, logo }) {
     );
 }
 
+export default function Header(props) {
+    const { headerVariant, isSticky, title, isTitleVisible, 
+            logo = { url: '/images/jammies.gif', altText: 'Jammies Logo' }, 
+            primaryLinks = [], 
+            socialLinks = [], 
+            styles = {} } = props;
+            
+    const headerWidth = styles.self?.width ?? 'narrow';
+    
+    return (
+        <header className={classNames('sb-component', 'sb-component-header', isSticky ? 'sticky top-0 z-10' : 'relative', 'border-b', 'border-current')}>
+            <div
+                className={classNames('mx-auto', mapMaxWidthStyles(headerWidth), {
+                    'xl:border-l xl:border-r border-current': headerWidth === 'narrow',
+                    '2xl:border-l 2xl:border-r border-current': headerWidth === 'wide'
+                })}
+            >
+                <Link href="#main" className="sr-only">
+                    Skip to main content
+                </Link>
+                <HeaderVariants
+                    variant={headerVariant}
+                    title={title}
+                    isTitleVisible={isTitleVisible}
+                    logo={logo}  {/* 로고 객체 전달 */}
+                    primaryLinks={primaryLinks}
+                    socialLinks={socialLinks}
+                />
+            </div>
+        </header>
+    );
+}
+
 
 function ListOfLinks({ links, inMobileMenu }) {
     return links.map((link, index) => (
