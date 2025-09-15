@@ -10,14 +10,14 @@
         "primaryLinks": [
             {
                 "type": "Link",
-                "label": "내 소개",
-                "url": "/info",
-                "altText": "내 소개"
+                "label": "내 프로젝트",
+                "url": "/projects"
             },
             {
                 "type": "Link",
-                "label": "내 프로젝트",
-                "url": "/projects"
+                "label": "내 소개",
+                "url": "/info",
+                "altText": "내 소개"
             }
         ],
         "socialLinks": [
